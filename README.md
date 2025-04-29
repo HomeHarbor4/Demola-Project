@@ -65,9 +65,10 @@ RealEstateSync/
 ### Installation
 
 1. Clone the repository:
-
+```bash
 git clone https://github.com/HomeHarbor4/Demola-Project
 cd Demola-Project
+```
 
 
 2. Install dependencies:
@@ -97,8 +98,8 @@ npm run web
 ```
 
 The application will be available at:
-- Frontend: http://localhost:5173
-- Backend: http://localhost:5000
+ http://localhost:5173
+ 
 
 
 ## API Documentation
