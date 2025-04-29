@@ -8,7 +8,6 @@ Built for first-time buyers, families, and real estate enthusiasts, Home Harbor 
 
 - 🔍 *City/Area Search*: Explore neighborhoods based on location.
 - 🗺️ *Interactive Maps*: View parks, schools, transport routes, and safety information visually.
-- 📈 *Market Insights*: Analyze property price trends and living conditions.
 - 🎯 *Smart Filters*: Customize your search by price, commute time, school ratings, and more.
 - 📱 *Responsive Design*: Accessible from desktops, tablets, and mobile devices.
 
