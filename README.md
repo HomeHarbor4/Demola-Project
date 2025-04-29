@@ -56,7 +56,7 @@ First Run database migrations:
 ```bash
 cd server
 npm run db:generate
-npm run db:push
+npm run db:push (only if any schema available)
 ```
 ### Development Mode
 1. Start the backend server:
