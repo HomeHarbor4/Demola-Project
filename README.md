@@ -16,7 +16,7 @@ Built for first-time buyers, families, and real estate enthusiasts, Home Harbor 
 
 - *Frontend*: React.js, Tailwind CSS
 - *Backend*: Node.js, Express.js
-- *Database*: MongoDB
+- *Database*: PostgreSQL
 - *External Data Sources*: 
   - Oulu Open Data Portal
   - Statistics Finland
