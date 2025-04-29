@@ -75,28 +75,6 @@ The application will be available at:
  http://localhost:5173
  
 
-
-## API Documentation
-
-### Authentication
-
-- `POST /api/auth/register` - Register a new user
-- `POST /api/auth/login` - Login user
-- `POST /api/auth/logout` - Logout user
-
-### Properties
-
-- `GET /api/properties` - Get all properties
-- `GET /api/properties/:id` - Get property by ID
-- `POST /api/properties` - Create new property
-- `PUT /api/properties/:id` - Update property
-- `DELETE /api/properties/:id` - Delete property
-
-### Crime Statistics
-
-- `GET /api/crime-rate?city=:city` - Get crime statistics for a city
-- `GET /api/crime-data` - Get all crime data
-
 ## Data Processing
 
 The application includes a crime data service that:
