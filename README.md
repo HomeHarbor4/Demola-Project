@@ -107,9 +107,9 @@ The application includes a crime data service that:
 
 ## 👥 Team
 
-- Anu Rawat  
-- Vanshika Sanni  
-- Sujata Shresta  
-- Esther Fatoyinbo
+- Anu Rawat  ( https://www.linkedin.com/in/anu-r-63a94b259/ )
+- Vanshika Sanni  ( https://www.linkedin.com/in/vanshika-saini-98859a2b3/ )
+- Sujata Shresta  ( https://www.linkedin.com/in/sujata-shrestha-486913234/ )
+- Esther Fatoyinbo ( https://www.linkedin.com/in/esther-fatoyinbo-04955b277/ )
   
 
