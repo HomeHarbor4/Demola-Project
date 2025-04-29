@@ -30,31 +30,6 @@ Access the live version here:
 
 ---
 
-
-## Project Structure
-
-```
-RealEstateSync/
-├── client/                 # Frontend React application
-│   ├── src/
-│   │   ├── components/     # React components
-│   │   ├── hooks/         # Custom React hooks
-│   │   ├── pages/         # Page components
-│   │   ├── services/      # API service functions
-│   │   └── types/         # TypeScript type definitions
-│   └── vite.config.ts     # Vite configuration
-│
-├── server/                 # Backend Express application
-│   ├── db/                # Database configuration
-│   ├── routes/            # API route handlers
-│   ├── services/          # Business logic
-│   ├── middleware/        # Express middleware
-│   └── types/             # TypeScript type definitions
-│
-└── shared/                # Shared code between frontend and backend
-    └── schema/            # Database schema definitions
-```
-
 ## 🧑‍💻 Getting Started (Local Development)
 
 ### Prerequisites
