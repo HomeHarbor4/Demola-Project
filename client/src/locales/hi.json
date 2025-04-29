@@ -1,0 +1,406 @@
+{
+  "common": {
+    "loading": "लोड हो रहा है...",
+    "error": "त्रुटि",
+    "success": "सफल",
+    "cancel": "रद्द करें",
+    "submit": "जमा करें",
+    "save": "सहेजें",
+    "delete": "हटाएं",
+    "edit": "संपादित करें",
+    "view": "देखें",
+    "close": "बंद करें",
+    "requiredField": "यह फ़ील्ड आवश्यक है",
+    "optional": "वैकल्पिक",
+    "yes": "हाँ",
+    "no": "नहीं",
+    "back": "वापस",
+    "next": "अगला",
+    "finish": "समाप्त",
+    "confirm": "पुष्टि करें",
+    "search": "खोजें",
+    "reset": "रीसेट",
+    "apply": "लागू करें",
+    "filter": "फ़िल्टर",
+    "sort": "क्रमबद्ध करें",
+    "clear": "साफ़ करें",
+    "any": "कोई भी",
+    "all": "सभी"
+  },
+  "navbar": {
+    "phone": "फ़ोन",
+    "email": "ईमेल",
+    "buy": "खरीदें",
+    "rent": "किराए पर",
+    "sell": "बेचें",
+    "commercial": "वाणिज्यिक",
+    "pg": "पीजी और कोलिविंग",
+    "findAgents": "एजेंट खोजें",
+    "neighborhoods": "पड़ोस",
+    "mortgage": "मॉर्टगेज",
+    "blog": "ब्लॉग",
+    "listProperty": "संपत्ति सूचीबद्ध करें",
+    "signIn": "साइन इन",
+    "signUp": "साइन अप",
+    "menu": "मेनू",
+    "explore": "अन्वेषण",
+    "profile": "प्रोफ़ाइल",
+    "myProperties": "मेरी संपत्तियां",
+    "myFavorites": "मेरे पसंदीदा",
+    "myMessages": "मेरे संदेश",
+    "adminDashboard": "एडमिन डैशबोर्ड",
+    "signOut": "साइन आउट",
+    "signInPrompt": "अधिक सुविधाओं के लिए साइन इन करें।"
+  },
+  "propertyListings": {
+    "title": {
+      "buy": "बिक्री के लिए संपत्तियां",
+      "rent": "किराए के लिए संपत्तियां",
+      "sell": "बिक्री के लिए संपत्तियां",
+      "commercial": "वाणिज्यिक संपत्तियां",
+      "pg": "पीजी और कोलिविंग स्पेस",
+      "default": "सभी संपत्तियां"
+    },
+    "searchResults": "\"{{query}}\" के लिए खोज परिणाम",
+    "propertiesInCity": "{{city}} में संपत्तियां",
+    "propertiesFound": "{{count}} संपत्तियां मिलीं",
+    "updating": "अपडेट हो रहा है...",
+    "noProperties": "कोई संपत्ति नहीं मिली",
+    "tryChangingFilters": "अपने खोज मानदंड या फ़िल्टर बदलने का प्रयास करें",
+    "goBack": "वापस जाएं",
+    "viewDetails": "विवरण देखें"
+  },
+  "propertyCard": {
+    "featured": "विशेष",
+    "verified": "सत्यापित",
+    "rating": "रेटिंग",
+    "beds": "{{count}} बेडरूम",
+    "beds_plural": "{{count}} बेडरूम",
+    "baths": "{{count}} बाथरूम",
+    "baths_plural": "{{count}} बाथरूम",
+    "areaUnit": "वर्ग फुट",
+    "listedToday": "आज सूचीबद्ध",
+    "listedYesterday": "कल सूचीबद्ध",
+    "listedDaysAgo": "{{count}} दिन पहले सूचीबद्ध",
+    "listedDaysAgo_plural": "{{count}} दिन पहले सूचीबद्ध",
+    "listedWeeksAgo": "{{count}} सप्ताह पहले सूचीबद्ध",
+    "listedWeeksAgo_plural": "{{count}} सप्ताह पहले सूचीबद्ध",
+    "listedMonthsAgo": "{{count}} महीने पहले सूचीबद्ध",
+    "listedMonthsAgo_plural": "{{count}} महीने पहले सूचीबद्ध",
+    "viewDetails": "विवरण देखें",
+    "forRentSuffix": "/माह",
+    "listedRecently": "हाल ही में सूचीबद्ध",
+    "forRent": "किराए पर",
+    "forSale": "बिक्री के लिए",
+    "bed": "बेडरूम",
+    "areaUnit": "वर्ग फुट"
+  },
+  "propertyDetailModal": {
+    "area": "क्षेत्र",
+    "bedrooms": "बेडरूम",
+    "bathrooms": "बाथरूम",
+    "description": "विवरण",
+    "features": "सुविधाएं और सुविधाएं",
+    "propertyDetails": "संपत्ति विवरण",
+    "transactionType": "लेनदेन प्रकार",
+    "propertyOwnership": "संपत्ति स्वामित्व",
+    "flooring": "फर्श",
+    "furnishing": "फर्निशिंग",
+    "heating": "हीटिंग",
+    "waterSupply": "जल आपूर्ति",
+    "gasConnection": "गैस कनेक्शन",
+    "registration": "पंजीकरण",
+    "avgNearbyPrice": "औसत निकटवर्ती मूल्य",
+    "available": "उपलब्ध",
+    "notAvailable": "उपलब्ध नहीं",
+    "contact": "संपर्क",
+    "callAgent": "एजेंट को कॉल करें",
+    "callAgentNA": "एजेंट को कॉल करें (उपलब्ध नहीं)",
+    "messageAgent": "संदेश",
+    "sendMessageTitle": "एजेंट को संदेश भेजें",
+    "location": "स्थान",
+    "locationNotAvailable": "स्थान निर्देशांक उपलब्ध नहीं",
+    "viewOnMap": "मानचित्र पर देखें",
+    "form": {
+      "nameLabel": "आपका नाम",
+      "emailLabel": "आपका ईमेल",
+      "phoneLabel": "आपका फ़ोन नंबर",
+      "phonePlaceholder": "अपना फ़ोन नंबर दर्ज करें",
+      "messageLabel": "संदेश",
+      "messagePlaceholder": "यहाँ अपना संदेश लिखें",
+      "namePlaceholder": "अपना नाम दर्ज करें",
+      "emailPlaceholder": "अपना ईमेल दर्ज करें"
+    },
+    "messages": {
+      "success": "संदेश सफलतापूर्वक भेजा गया।",
+      "error": "संदेश भेजने में विफल। कृपया पुनः प्रयास करें।",
+      "validationError": "कृपया सभी आवश्यक फ़ील्ड भरें।"
+    }
+  },
+  "filters": {
+    "title": "फ़िल्टर",
+    "propertyType": "संपत्ति प्रकार",
+    "priceRange": "मूल्य सीमा",
+    "bedrooms": "बेडरूम",
+    "bathrooms": "बाथरूम",
+    "area": "क्षेत्र (वर्ग फुट)",
+    "min": "न्यूनतम",
+    "max": "अधिकतम",
+    "any": "कोई भी",
+    "all": "सभी",
+    "reset": "रीसेट",
+    "apply": "लागू करें",
+    "advancedFilters": "उन्नत फ़िल्टर"
+  },
+  "quickFilters": {
+    "title": "त्वरित फ़िल्टर",
+    "propertyType": "संपत्ति प्रकार",
+    "priceRange": "मूल्य सीमा",
+    "bedrooms": "बेडरूम",
+    "bathrooms": "बाथरूम",
+    "area": "क्षेत्र (वर्ग फुट)",
+    "min": "न्यूनतम",
+    "max": "अधिकतम",
+    "any": "कोई भी",
+    "all": "सभी",
+    "reset": "रीसेट",
+    "apply": "लागू करें",
+    "advancedFilters": "उन्नत फ़िल्टर"
+  },
+  "advancedFilters": {
+    "title": "उन्नत फ़िल्टर",
+    "propertyType": "संपत्ति प्रकार",
+    "area": "क्षेत्रफल",
+    "budget": "बजट",
+    "min": "न्यूनतम",
+    "max": "अधिकतम",
+    "ownership": "स्वामित्व",
+    "postedBy": "द्वारा पोस्ट किया गया",
+    "facing": "मुख",
+    "mediaVerification": "मीडिया और सत्यापन",
+    "withPhotos": "केवल फ़ोटो के साथ",
+    "withVideos": "केवल वीडियो के साथ",
+    "verified": "सत्यापित संपत्तियाँ",
+    "resetAll": "सभी रीसेट करें",
+    "applyFilters": "फ़िल्टर लागू करें",
+    "residential": "आवासीय",
+    "commercial": "व्यावसायिक",
+    "land": "भूमि",
+    "industrial": "औद्योगिक",
+    "agricultural": "कृषि",
+    "other": "अन्य",
+    "freehold": "फ्रीहोल्ड",
+    "leasehold": "लीज़होल्ड",
+    "cooperative": "सहकारी",
+    "owner": "मालिक",
+    "agent": "एजेंट",
+    "builder": "बिल्डर",
+    "east": "पूर्व",
+    "west": "पश्चिम",
+    "north": "उत्तर",
+    "south": "दक्षिण",
+    "office": "कार्यालय",
+    "shop": "दुकान",
+    "residentialLand": "आवासीय भूमि",
+    "housesVillas": "घर और विला",
+    "apartments": "अपार्टमेंट",
+    "builderFloor": "बिल्डर फ्लोर",
+    "studio": "स्टूडियो"
+  },
+  "propertyType": {
+    "house": "मकान",
+    "villa": "विला",
+    "condo": "कॉनडो",
+    "penthouse": "पेंटहाउस",
+    "townhouse": "टाउनहाउस"
+  },
+  "stats": {
+    "sectionTitle": "क्यों चुनें HomeHarbor?",
+    "sectionDescription": "भारत का सबसे तेजी से बढ़ता रियल एस्टेट प्लेटफॉर्म, जो लाखों लोगों को उनका आदर्श घर खोजने में मदद करता है।",
+    "propertiesListed": "सूचीबद्ध संपत्तियां",
+    "happyCustomers": "संतुष्ट ग्राहक",
+    "citiesCovered": "शहर शामिल",
+    "customerSatisfaction": "ग्राहक संतुष्टि"
+  },
+  "exploreByLocation": {
+    "sectionTitle": "स्थान के अनुसार संपत्तियाँ खोजें",
+    "sectionDescription": "शहर के सबसे लोकप्रिय इलाकों में सर्वश्रेष्ठ संपत्तियाँ खोजें।",
+    "viewAll": "सभी स्थान देखें"
+  },
+  "callToAction": {
+    "title": "क्या आप अपने सपनों का घर ढूंढने के लिए तैयार हैं?",
+    "description": "हमारे साथ हजारों खुश ग्राहकों में शामिल हों जिन्होंने अपनी आदर्श संपत्ति पाई।",
+    "listProperty": "अपनी संपत्ति सूचीबद्ध करें",
+    "browseProperties": "संपत्तियाँ ब्राउज़ करें"
+  },
+  "footer": {
+    "brandDescription": "संपत्तियों को खोजने, खरीदने और बेचने के लिए आपका विश्वसनीय साथी।",
+    "company": "कंपनी",
+    "resources": "संसाधन",
+    "legal": "कानूनी",
+    "languages": "भाषाएँ",
+    "apps": "ऐप्स",
+    "payment": "भुगतान विधियाँ",
+    "comingSoon": "जल्द आ रहा है",
+    "errorLoading": "फुटर लिंक लोड करने में त्रुटि।",
+    "admin": "प्रशासन लॉगिन",
+    "copyright": "© {{year}} {{brandName}}. सर्वाधिकार सुरक्षित।"
+  },
+  "locationCard": {
+    "properties": "{{count}}+ संपत्तियाँ"
+  },
+  "nearbyPlaces": {
+    "title": "आस-पास के स्थान",
+    "types": {
+      "restaurants": "खानपान",
+      "schools": "स्कूल",
+      "hospitals": "स्वास्थ्य सेवाएं",
+      "parks": "पार्क",
+      "shopping": "शॉपिंग",
+      "metro": "मेट्रो",
+      "religious": "धार्मिक स्थल",
+      "atms": "एटीएम",
+      "transit": "परिवहन"
+    },
+    "error": {
+      "title": "आस-पास के स्थान लोड करने में विफल",
+      "retry": "पुनः प्रयास करें"
+    },
+    "empty": {
+      "title": "आस-पास कोई {type} नहीं मिला",
+      "description": "हमें खोज क्षेत्र के भीतर कोई {type} नहीं मिला। कृपया अन्य श्रेणियों की जांच करें।",
+      "refresh": "ताज़ा करें"
+    },
+    "viewOnMap": "मानचित्र पर देखें"
+  },
+  "propertyRecommendations": {
+    "noProperties": "कोई समान संपत्ति नहीं मिली"
+  },
+  "propertyDetail": {
+    "similarProperties": "समान संपत्तियाँ"
+  },
+  "auth": {
+    "signIn": {
+      "title": "साइन इन",
+      "googleButton": "Google से साइन इन करें"
+    },
+    "signUp": "साइन अप",
+    "signInHeading": "वापसी पर स्वागत है!",
+    "signUpHeading": "अपना खाता बनाएं",
+    "emailLabel": "ईमेल पता",
+    "emailPlaceholder": "अपना ईमेल पता दर्ज करें",
+    "passwordLabel": "पासवर्ड",
+    "passwordPlaceholder": "अपना पासवर्ड दर्ज करें",
+    "confirmPasswordLabel": "पासवर्ड की पुष्टि करें",
+    "confirmPasswordPlaceholder": "अपना पासवर्ड फिर से दर्ज करें",
+    "nameLabel": "पूरा नाम",
+    "namePlaceholder": "अपना पूरा नाम दर्ज करें",
+    "submitSignIn": "साइन इन",
+    "submitSignUp": "साइन अप",
+    "forgotPassword": "पासवर्ड भूल गए?",
+    "noAccount": "कोई खाता नहीं है?",
+    "haveAccount": "पहले से खाता है?",
+    "signUpLink": "यहाँ साइन अप करें",
+    "signInLink": "यहाँ साइन इन करें",
+    "invalidEmail": "कृपया एक मान्य ईमेल पता दर्ज करें।",
+    "requiredField": "यह फ़ील्ड आवश्यक है।",
+    "passwordMinLength": "पासवर्ड कम से कम 6 अक्षरों का होना चाहिए।",
+    "passwordsMustMatch": "पासवर्ड मेल खाने चाहिए।",
+    "signInError": "अमान्य ईमेल या पासवर्ड।",
+    "signUpError": "खाता नहीं बना सके। कृपया पुनः प्रयास करें।",
+    "signUpSuccess": "खाता सफलतापूर्वक बनाया गया! कृपया साइन इन करें।",
+    "roleLabel": "खाता प्रकार",
+    "roleUser": "उपयोगकर्ता",
+    "roleAgent": "एजेंट",
+    "phoneLabel": "फ़ोन नंबर",
+    "phonePlaceholder": "अपना फ़ोन नंबर दर्ज करें",
+    "usernameLabel": "यूज़रनेम",
+    "usernamePlaceholder": "अपना यूज़रनेम दर्ज करें",
+    "button": "साइन अप",
+    "successTitle": "सफलता!",
+    "successDesc": "आपका खाता सफलतापूर्वक बनाया गया है।",
+    "failTitle": "त्रुटि",
+    "loading": "लोड हो रहा है..."
+  },
+  "toast": {
+    "messages": {
+      "sent": "संदेश भेजा गया",
+      "sentTo": "{{name}} को संदेश भेजा गया",
+      "deleted": "संदेश सफलतापूर्वक हटा दिया गया",
+      "markedAsRead": "संदेश पढ़ा हुआ चिह्नित किया गया",
+      "markedAsReplied": "संदेश उत्तर दिया हुआ चिह्नित किया गया",
+      "error": {
+        "send": "संदेश भेजने में त्रुटि: {{error}}",
+        "delete": "संदेश हटाने में त्रुटि: {{error}}",
+        "markAsRead": "संदेश को पढ़ा हुआ चिह्नित करने में त्रुटि: {{error}}",
+        "markAsReplied": "संदेश को उत्तर दिया हुआ चिह्नित करने में त्रुटि: {{error}}"
+      }
+    },
+    "property": {
+      "addedToFavorites": "संपत्ति पसंदीदा में जोड़ी गई",
+      "removedFromFavorites": "संपत्ति पसंदीदा से हटा दी गई",
+      "error": {
+        "addToFavorites": "संपत्ति को पसंदीदा में जोड़ने में त्रुटि: {{error}}",
+        "removeFromFavorites": "संपत्ति को पसंदीदा से हटाने में त्रुटि: {{error}}"
+      }
+    },
+    "admin": {
+      "user": {
+        "created": "उपयोगकर्ता सफलतापूर्वक बनाया गया",
+        "updated": "उपयोगकर्ता सफलतापूर्वक अद्यतन किया गया",
+        "deleted": "उपयोगकर्ता सफलतापूर्वक हटा दिया गया",
+        "roleUpdated": "उपयोगकर्ता की भूमिका {{role}} में अद्यतन की गई",
+        "error": {
+          "create": "उपयोगकर्ता बनाने में त्रुटि: {{error}}",
+          "update": "उपयोगकर्ता अद्यतन करने में त्रुटि: {{error}}",
+          "delete": "उपयोगकर्ता हटाने में त्रुटि: {{error}}",
+          "updateRole": "उपयोगकर्ता की भूमिका अद्यतन करने में त्रुटि: {{error}}"
+        }
+      },
+      "property": {
+        "created": "संपत्ति सफलतापूर्वक बनाई गई",
+        "updated": "संपत्ति सफलतापूर्वक अद्यतन की गई",
+        "deleted": "संपत्ति सफलतापूर्वक हटा दी गई",
+        "featured": "संपत्ति {{action}} सफलतापूर्वक",
+        "verified": "संपत्ति {{action}} सफलतापूर्वक",
+        "error": {
+          "create": "संपत्ति बनाने में त्रुटि: {{error}}",
+          "update": "संपत्ति अद्यतन करने में त्रुटि: {{error}}",
+          "delete": "संपत्ति हटाने में त्रुटि: {{error}}",
+          "feature": "संपत्ति {{action}} में त्रुटि: {{error}}",
+          "verify": "संपत्ति {{action}} में त्रुटि: {{error}}"
+        }
+      },
+      "location": {
+        "created": "स्थान सफलतापूर्वक बनाया गया",
+        "updated": "स्थान सफलतापूर्वक अद्यतन किया गया",
+        "deleted": "स्थान सफलतापूर्वक हटा दिया गया",
+        "error": {
+          "create": "स्थान बनाने में त्रुटि: {{error}}",
+          "update": "स्थान अद्यतन करने में त्रुटि: {{error}}",
+          "delete": "स्थान हटाने में त्रुटि: {{error}}"
+        }
+      },
+      "settings": {
+        "currencyUpdated": "मुद्रा सेटिंग्स सफलतापूर्वक अद्यतन की गईं",
+        "siteSettingsUpdated": "साइट सेटिंग्स सफलतापूर्वक अद्यतन की गईं",
+        "allDataCleared": "सभी संपत्तियां और स्थान हटा दिए गए",
+        "error": {
+          "updateCurrency": "मुद्रा सेटिंग्स अद्यतन करने में त्रुटि: {{error}}",
+          "updateSiteSettings": "साइट सेटिंग्स अद्यतन करने में त्रुटि: {{error}}",
+          "clearData": "डेटा हटाने में त्रुटि: {{error}}"
+        }
+      },
+      "pageContent": {
+        "created": "पृष्ठ सामग्री सफलतापूर्वक बनाई गई",
+        "updated": "पृष्ठ सामग्री सफलतापूर्वक अद्यतन की गई",
+        "deleted": "पृष्ठ सामग्री सफलतापूर्वक हटा दी गई",
+        "error": {
+          "create": "पृष्ठ सामग्री बनाने में त्रुटि: {{error}}",
+          "update": "पृष्ठ सामग्री अद्यतन करने में त्रुटि: {{error}}",
+          "delete": "पृष्ठ सामग्री हटाने में त्रुटि: {{error}}"
+        }
+      }
+    }
+  }
+} 

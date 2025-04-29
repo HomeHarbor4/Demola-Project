@@ -1,0 +1,186 @@
+{
+  "nodes": [
+    {
+      "id": "ProjectRoot",
+      "observation": "Full-stack real estate application with React frontend and Express backend, featuring property listings, user management, and admin dashboard"
+    },
+    {
+      "id": "Frontend",
+      "observation": "React-based frontend using Vite, TypeScript, and modern UI components. Features include property listings, search, user authentication, and admin dashboard"
+    },
+    {
+      "id": "Backend",
+      "observation": "Express.js backend with TypeScript, PostgreSQL database, and various middleware. Handles data management, authentication, and API endpoints"
+    },
+    {
+      "id": "Database",
+      "observation": "PostgreSQL database with Drizzle ORM for data management. Stores user data, properties, locations, favorites, messages, and content"
+    },
+    {
+      "id": "AuthSystem",
+      "observation": "Authentication system using Passport.js and JWT. Handles user registration, login, and session management"
+    },
+    {
+      "id": "UIComponents",
+      "observation": "Rich UI component library using Radix UI and Tailwind CSS. Includes property cards, forms, modals, and navigation components"
+    },
+    {
+      "id": "StateManagement",
+      "observation": "React Query for server state management and React contexts for client state. Manages data fetching, caching, and UI state"
+    },
+    {
+      "id": "Testing",
+      "observation": "Testing setup with Mocha, Chai, and Selenium for end-to-end testing. Includes unit tests and integration tests"
+    },
+    {
+      "id": "Internationalization",
+      "observation": "i18next integration for multi-language support. Enables localization of UI text and content"
+    },
+    {
+      "id": "MapsIntegration",
+      "observation": "Leaflet integration for map functionality. Displays property locations and neighborhood information"
+    },
+    {
+      "id": "PropertyManagement",
+      "observation": "Handles property listings, search, filtering, and recommendations. Includes CRUD operations and advanced search features"
+    },
+    {
+      "id": "UserManagement",
+      "observation": "Manages user profiles, authentication, and authorization. Includes user registration, login, and profile management"
+    },
+    {
+      "id": "AdminDashboard",
+      "observation": "Admin interface for managing properties, users, locations, and content. Includes analytics and system settings"
+    },
+    {
+      "id": "ContentManagement",
+      "observation": "Manages dynamic content for pages, footer, and blog posts. Includes CRUD operations and content organization"
+    },
+    {
+      "id": "MessagingSystem",
+      "observation": "Handles user-to-user and user-to-admin messaging. Includes message creation, reading, and management"
+    }
+  ],
+  "edges": [
+    {
+      "source": "ProjectRoot",
+      "target": "Frontend",
+      "name": "contains",
+      "description": "Frontend is a major component of the project"
+    },
+    {
+      "source": "ProjectRoot",
+      "target": "Backend",
+      "name": "contains",
+      "description": "Backend is a major component of the project"
+    },
+    {
+      "source": "Backend",
+      "target": "Database",
+      "name": "uses",
+      "description": "Backend interacts with PostgreSQL database"
+    },
+    {
+      "source": "Backend",
+      "target": "AuthSystem",
+      "name": "implements",
+      "description": "Backend handles authentication and authorization"
+    },
+    {
+      "source": "Frontend",
+      "target": "UIComponents",
+      "name": "uses",
+      "description": "Frontend utilizes Radix UI components"
+    },
+    {
+      "source": "Frontend",
+      "target": "StateManagement",
+      "name": "uses",
+      "description": "Frontend manages state with React Query and contexts"
+    },
+    {
+      "source": "ProjectRoot",
+      "target": "Testing",
+      "name": "includes",
+      "description": "Project includes comprehensive testing setup"
+    },
+    {
+      "source": "Frontend",
+      "target": "Internationalization",
+      "name": "implements",
+      "description": "Frontend supports multiple languages"
+    },
+    {
+      "source": "Frontend",
+      "target": "MapsIntegration",
+      "name": "uses",
+      "description": "Frontend integrates maps using Leaflet"
+    },
+    {
+      "source": "Backend",
+      "target": "Frontend",
+      "name": "serves",
+      "description": "Backend serves data and APIs to frontend"
+    },
+    {
+      "source": "Backend",
+      "target": "PropertyManagement",
+      "name": "implements",
+      "description": "Backend handles property-related operations"
+    },
+    {
+      "source": "Backend",
+      "target": "UserManagement",
+      "name": "implements",
+      "description": "Backend handles user-related operations"
+    },
+    {
+      "source": "Backend",
+      "target": "AdminDashboard",
+      "name": "implements",
+      "description": "Backend provides admin functionality"
+    },
+    {
+      "source": "Backend",
+      "target": "ContentManagement",
+      "name": "implements",
+      "description": "Backend manages dynamic content"
+    },
+    {
+      "source": "Backend",
+      "target": "MessagingSystem",
+      "name": "implements",
+      "description": "Backend handles messaging functionality"
+    },
+    {
+      "source": "Frontend",
+      "target": "PropertyManagement",
+      "name": "uses",
+      "description": "Frontend displays and manages properties"
+    },
+    {
+      "source": "Frontend",
+      "target": "UserManagement",
+      "name": "uses",
+      "description": "Frontend handles user interactions"
+    },
+    {
+      "source": "Frontend",
+      "target": "AdminDashboard",
+      "name": "uses",
+      "description": "Frontend provides admin interface"
+    },
+    {
+      "source": "Frontend",
+      "target": "ContentManagement",
+      "name": "uses",
+      "description": "Frontend displays dynamic content"
+    },
+    {
+      "source": "Frontend",
+      "target": "MessagingSystem",
+      "name": "uses",
+      "description": "Frontend handles messaging interface"
+    }
+  ]
+} 

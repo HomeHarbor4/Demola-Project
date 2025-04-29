@@ -1,0 +1,605 @@
+{
+  "common": {
+    "loading": "Laddar...",
+    "error": "Fel",
+    "success": "Lyckades",
+    "cancel": "Avbryt",
+    "submit": "Skicka",
+    "save": "Spara",
+    "delete": "Radera",
+    "edit": "Redigera",
+    "view": "Visa",
+    "close": "Stäng",
+    "requiredField": "Detta fält är obligatoriskt",
+    "optional": "Valfritt",
+    "yes": "Ja",
+    "no": "Nej",
+    "back": "Tillbaka",
+    "next": "Nästa",
+    "finish": "Klar",
+    "confirm": "Bekräfta",
+    "search": "Sök",
+    "reset": "Återställ",
+    "apply": "Tillämpa",
+    "filter": "Filtrera",
+    "sort": "Sortera",
+    "clear": "Rensa",
+    "any": "Valfri",
+    "all": "Alla"
+  },
+  "navbar": {
+    "phone": "Telefon",
+    "email": "E-post",
+    "buy": "Köp",
+    "rent": "Hyr",
+    "sell": "Sälj",
+    "commercial": "Kommersiella fastigheter",
+    "pg": "PG & Delat boende",
+    "findAgents": "Hitta mäklare",
+    "neighborhoods": "Stadsdelar",
+    "mortgage": "Bolån",
+    "blog": "Blogg",
+    "listProperty": "Lista fastighet",
+    "signIn": "Logga in",
+    "signUp": "Registrera dig",
+    "menu": "Meny",
+    "explore": "Utforska",
+    "profile": "Profil",
+    "myProperties": "Mina fastigheter",
+    "myFavorites": "Favoriter",
+    "myMessages": "Meddelanden",
+    "adminDashboard": "Adminpanel",
+    "signOut": "Logga ut",
+    "signInPrompt": "Logga in för att få tillgång till fler funktioner."
+  },
+  "propertyListings": {
+    "title": {
+      "buy": "Fastigheter till salu",
+      "rent": "Fastigheter att hyra",
+      "sell": "Fastigheter till salu",
+      "commercial": "Kommersiella fastigheter",
+      "pg": "PG & Delat boende",
+      "default": "Alla fastigheter"
+    },
+    "searchResults": "Sökresultat för \"{{query}}\"",
+    "propertiesInCity": "Fastigheter i {{city}}",
+    "propertiesFound": "{{count}} fastigheter hittades",
+    "updating": "Uppdaterar...",
+    "noProperties": "Inga fastigheter hittades",
+    "tryChangingFilters": "Prova att ändra sökkriterier eller filter",
+    "goBack": "Tillbaka",
+    "viewDetails": "Visa detaljer"
+  },
+  "propertyCard": {
+    "featured": "Utvald",
+    "verified": "Verifierad",
+    "rating": "Betyg",
+    "beds": "{{count}} sovrum",
+    "beds_plural": "{{count}} sovrum",
+    "baths": "{{count}} badrum",
+    "baths_plural": "{{count}} badrum",
+    "areaUnit": "m²",
+    "listedToday": "Listad idag",
+    "listedYesterday": "Listad igår",
+    "listedDaysAgo": "Listad för {{count}} dag sedan",
+    "listedDaysAgo_plural": "Listad för {{count}} dagar sedan",
+    "listedWeeksAgo": "Listad för {{count}} vecka sedan",
+    "listedWeeksAgo_plural": "Listad för {{count}} veckor sedan",
+    "listedMonthsAgo": "Listad för {{count}} månad sedan",
+    "listedMonthsAgo_plural": "Listad för {{count}} månader sedan",
+    "viewDetails": "Visa detaljer",
+    "forRentSuffix": "/mån",
+    "listedRecently": "Nyligen listad",
+    "forSale": "Till salu",
+    "forRent": "Uthyres"
+  },
+  "propertyDetailModal": {
+    "area": "Yta",
+    "bedrooms": "Sovrum",
+    "bathrooms": "Badrum",
+    "description": "Beskrivning",
+    "features": "Funktioner och bekvämligheter",
+    "propertyDetails": "Fastighetsdetaljer",
+    "transactionType": "Transaktionstyp",
+    "propertyOwnership": "Fastighetsägarskap",
+    "flooring": "Golvbeläggning",
+    "furnishing": "Möblering",
+    "heating": "Uppvärmning",
+    "waterSupply": "Vattenförsörjning",
+    "gasConnection": "Gasanslutning",
+    "registration": "Registrering",
+    "avgNearbyPrice": "Genomsnittligt pris i närheten",
+    "available": "Tillgänglig",
+    "notAvailable": "Ej tillgänglig",
+    "contact": "Kontaktinformation",
+    "callAgent": "Ring mäklare",
+    "callAgentNA": "Ring mäklare (ej tillgänglig)",
+    "messageAgent": "Meddelande",
+    "sendMessageTitle": "Skicka meddelande till mäklare",
+    "location": "Plats",
+    "locationNotAvailable": "Platskoordinater ej tillgängliga",
+    "viewOnMap": "Visa på karta",
+    "form": {
+      "nameLabel": "Ditt namn",
+      "emailLabel": "Din e-post",
+      "phoneLabel": "Ditt telefonnummer",
+      "phonePlaceholder": "Ange ditt telefonnummer",
+      "messageLabel": "Meddelande",
+      "messagePlaceholder": "Skriv ditt meddelande här",
+      "namePlaceholder": "Ange ditt namn",
+      "emailPlaceholder": "Ange din e-post"
+    },
+    "messages": {
+      "success": "Meddelandet skickades.",
+      "error": "Det gick inte att skicka meddelandet. Försök igen.",
+      "validationError": "Vänligen fyll i alla obligatoriska fält."
+    }
+  },
+  "filters": {
+    "title": "Filter",
+    "propertyType": "Fastighetstyp",
+    "priceRange": "Prisintervall",
+    "bedrooms": "Sovrum",
+    "bathrooms": "Badrum",
+    "area": "Yta (m²)",
+    "min": "Min",
+    "max": "Max",
+    "any": "Valfri",
+    "all": "Alla",
+    "reset": "Återställ",
+    "apply": "Tillämpa",
+    "advancedFilters": "Avancerade filter"
+  },
+  "quickFilters": {
+    "title": "Snabbfilter",
+    "propertyType": "Fastighetstyp",
+    "priceRange": "Prisintervall",
+    "bedrooms": "Sovrum",
+    "bathrooms": "Badrum",
+    "area": "Yta (m²)",
+    "min": "Min",
+    "max": "Max",
+    "any": "Valfri",
+    "all": "Alla",
+    "reset": "Återställ",
+    "apply": "Tillämpa",
+    "advancedFilters": "Avancerade filter",
+    "view": {
+      "map": "Kartvy",
+      "list": "Listvy"
+    }
+  },
+  "advancedFilters": {
+    "title": "Avancerade filter",
+    "propertyType": "Typ av fastighet",
+    "area": "Yta",
+    "budget": "Budget",
+    "min": "Min",
+    "max": "Max",
+    "ownership": "Ägandeform",
+    "postedBy": "Publicerad av",
+    "facing": "Vänd mot",
+    "mediaVerification": "Media & Verifiering",
+    "withPhotos": "Endast med bilder",
+    "withVideos": "Endast med videor",
+    "verified": "Verifierade objekt",
+    "resetAll": "Återställ alla",
+    "applyFilters": "Tillämpa filter",
+    "residential": "Bostad",
+    "commercial": "Kommersiell",
+    "land": "Mark",
+    "industrial": "Industri",
+    "agricultural": "Jordbruk",
+    "other": "Annat",
+    "freehold": "Friköpt",
+    "leasehold": "Arrende",
+    "cooperative": "Kooperativ",
+    "owner": "Ägare",
+    "agent": "Mäklare",
+    "builder": "Byggare",
+    "east": "Öst",
+    "west": "Väst",
+    "north": "Norr",
+    "south": "Söder",
+    "office": "Kontor",
+    "shop": "Butik",
+    "residentialLand": "Bostadsmark",
+    "housesVillas": "Hus och villor",
+    "apartments": "Lägenheter",
+    "builderFloor": "Byggarens våning",
+    "studio": "Studio"
+  },
+  "propertyType": {
+    "all": "Alla typer",
+    "house": "Hus",
+    "villa": "Villa",
+    "condo": "Lägenhet",
+    "penthouse": "Penthouse",
+    "townhouse": "Radhus",
+    "apartment": "Lägenhet",
+    "studio": "Studio",
+    "commercial": "Kommersiell",
+    "land": "Mark",
+    "cottage": "Stuga",
+    "office": "Kontor"
+  },
+  "notFound": {
+    "title": "Sidan under konstruktion",
+    "description": "Vi arbetar fortfarande med denna del av HomeHarbor. Vänligen kom tillbaka senare!",
+    "backToHome": "Tillbaka till startsidan",
+    "goBack": "Gå tillbaka"
+  },
+  "admin": {
+    "pages": {
+      "title": "Sidhantering",
+      "description": "Hantera webbplatsens innehåll och blogginlägg",
+      "tabs": {
+        "sitePages": "Webbplatsens sidor",
+        "blogPosts": "Blogginlägg",
+        "dynamicContent": "Dynamiskt innehåll"
+      },
+      "actions": {
+        "addPage": "Lägg till sida",
+        "editPage": "Redigera sida",
+        "deletePage": "Radera sida",
+        "createPage": "Skapa sida",
+        "updatePage": "Uppdatera sida",
+        "deleteConfirm": "Är du säker på att du vill radera denna sida?",
+        "deleteBlogConfirm": "Är du säker på att du vill radera detta blogginlägg?"
+      },
+      "form": {
+        "title": "Titel",
+        "slug": "URL",
+        "status": "Status",
+        "content": "Innehåll",
+        "metaDescription": "Metabeskrivning",
+        "author": "Författare",
+        "category": "Kategori",
+        "published": "Publicerad",
+        "draft": "Utkast"
+      },
+      "messages": {
+        "pageCreated": "Sidan skapad.",
+        "pageUpdated": "Sidan uppdaterad.",
+        "pageDeleted": "Sidan raderad.",
+        "blogPostCreated": "Blogginlägget skapat.",
+        "blogPostUpdated": "Blogginlägget uppdaterat.",
+        "blogPostDeleted": "Blogginlägget raderat.",
+        "error": {
+          "createPage": "Kunde inte skapa sidan: {{error}}",
+          "updatePage": "Kunde inte uppdatera sidan: {{error}}",
+          "deletePage": "Kunde inte radera sidan: {{error}}",
+          "createBlogPost": "Kunde inte skapa blogginlägget: {{error}}",
+          "updateBlogPost": "Kunde inte uppdatera blogginlägget: {{error}}",
+          "deleteBlogPost": "Kunde inte radera blogginlägget: {{error}}"
+        }
+      }
+    }
+  },
+  "hero": {
+    "title": "Hitta ditt drömhem",
+    "subtitle": "Sök, jämför och upptäck de bästa fastigheterna i ditt område.",
+    "searchTermLabel": "Sökterm",
+    "searchTermPlaceholder": "Sök adress, stad eller postnummer",
+    "locationLabel": "Plats",
+    "allLocations": "Alla platser",
+    "loadingLocations": "Laddar platser...",
+    "errorLoadingLocations": "Fel vid laddning av platser",
+    "couldNotLoadLocations": "Kunde inte ladda platser",
+    "propertyTypeLabel": "Fastighetstyp",
+    "allTypes": "Alla typer",
+    "minPriceLabel": "Minsta pris",
+    "maxPriceLabel": "Högsta pris",
+    "bedsLabel": "Sovrum",
+    "bathsLabel": "Badrum",
+    "search": "Sök"
+  },
+  "featuredProperties": {
+    "sectionTitle": "Utvalda fastigheter",
+    "viewAll": "Visa alla fastigheter",
+    "loading": "Laddar utvalda fastigheter...",
+    "noProperties": "Inga utvalda fastigheter hittades."
+  },
+  "exploreByLocation": {
+    "sectionTitle": "Utforska fastigheter efter plats",
+    "sectionDescription": "Upptäck de bästa fastigheterna i stadens mest eftertraktade områden.",
+    "viewAll": "Visa alla platser"
+  },
+  "whyChoose": {
+    "sectionTitle": "Varför välja HomeHarbor?",
+    "reasons": [
+      "Stort urval av fastigheter",
+      "Pålitliga mäklare och verifierade annonser",
+      "Avancerad sökning och filtrering",
+      "Personliga rekommendationer",
+      "Säker och transparent process"
+    ]
+  },
+  "footer": {
+    "brandDescription": "Din pålitliga partner för att hitta, köpa och sälja fastigheter.",
+    "company": "Företag",
+    "resources": "Resurser",
+    "legal": "Juridik",
+    "languages": "Språk",
+    "apps": "Appar",
+    "payment": "Betalningsmetoder",
+    "comingSoon": "Kommer snart",
+    "errorLoading": "Fel vid laddning av sidfotslänkar.",
+    "admin": "Admininloggning",
+    "copyright": "© {{year}} {{brandName}}. Alla rättigheter förbehållna."
+  },
+  "stats": {
+    "sectionTitle": "Varför välja HomeHarbor?",
+    "sectionDescription": "Finlands snabbast växande fastighetsplattform som hjälper miljoner att hitta sitt perfekta hem.",
+    "propertiesListed": "Listade fastigheter",
+    "happyCustomers": "Nöjda kunder",
+    "citiesCovered": "Städer som täcks",
+    "customerSatisfaction": "Kundnöjdhet"
+  },
+  "callToAction": {
+    "title": "Redo att hitta ditt drömhem?",
+    "description": "Gå med tusentals nöjda kunder som hittade sin perfekta fastighet med oss.",
+    "listProperty": "Lista din fastighet",
+    "browseProperties": "Bläddra bland fastigheter"
+  },
+  "locationCard": {
+    "properties": "{{count}}+ fastigheter"
+  },
+  "nearbyPlaces": {
+    "title": "Närliggande platser",
+    "types": {
+      "restaurants": "Mat",
+      "schools": "Skolor",
+      "hospitals": "Sjukvård",
+      "parks": "Parker",
+      "shopping": "Shopping",
+      "metro": "Tunnelbana",
+      "religious": "Religiösa platser",
+      "atms": "Bankomater",
+      "transit": "Kollektivtrafik"
+    },
+    "error": {
+      "title": "Kunde inte ladda närliggande platser",
+      "retry": "Försök igen"
+    },
+    "empty": {
+      "title": "Inga {type} hittades i närheten",
+      "description": "Vi kunde inte hitta några {type} inom sökradien. Prova att kolla andra kategorier.",
+      "refresh": "Uppdatera"
+    },
+    "viewOnMap": "Visa på karta"
+  },
+  "propertyRecommendations": {
+    "noProperties": "Inga liknande fastigheter hittades",
+    "title": "Liknande fastigheter",
+    "subtitle": "Utforska andra fastigheter som matchar dina intressen",
+    "card": {
+      "featured": "Utvald",
+      "verified": "Verifierad",
+      "rating": "Betyg",
+      "beds": "{{count}} sovrum",
+      "beds_plural": "{{count}} sovrum",
+      "baths": "{{count}} badrum",
+      "baths_plural": "{{count}} badrum",
+      "areaUnit": "m²",
+      "listedToday": "Listad idag",
+      "listedYesterday": "Listad igår",
+      "listedDaysAgo": "Listad för {{count}} dag sedan",
+      "listedDaysAgo_plural": "Listad för {{count}} dagar sedan",
+      "listedWeeksAgo": "Listad för {{count}} vecka sedan",
+      "listedWeeksAgo_plural": "Listad för {{count}} veckor sedan",
+      "listedMonthsAgo": "Listad för {{count}} månad sedan",
+      "listedMonthsAgo_plural": "Listad för {{count}} månader sedan",
+      "viewDetails": "Visa detaljer",
+      "forRentSuffix": "/mån",
+      "listedRecently": "Nyligen listad",
+      "price": "Pris",
+      "location": "Plats",
+      "contactAgent": "Kontakta mäklare",
+      "favorite": "Lägg till favoriter",
+      "unfavorite": "Ta bort från favoriter",
+      "new": "Ny",
+      "sold": "Såld",
+      "rented": "Uthyrd",
+      "negotiable": "Förhandlingsbar"
+    }
+  },
+  "propertyDetail": {
+    "similarProperties": "Liknande fastigheter"
+  },
+  "auth": {
+    "signIn": {
+      "title": "Logga in",
+      "googleButton": "Logga in med Google"
+    },
+    "signUp": "Registrera dig",
+    "signInHeading": "Välkommen tillbaka!",
+    "signUpHeading": "Skapa ditt konto",
+    "emailLabel": "E-postadress",
+    "emailPlaceholder": "Ange din e-postadress",
+    "passwordLabel": "Lösenord",
+    "passwordPlaceholder": "Ange ditt lösenord",
+    "confirmPasswordLabel": "Bekräfta lösenord",
+    "confirmPasswordPlaceholder": "Ange ditt lösenord igen",
+    "nameLabel": "Fullständigt namn",
+    "namePlaceholder": "Ange ditt fullständiga namn",
+    "submitSignIn": "Logga in",
+    "submitSignUp": "Registrera dig",
+    "forgotPassword": "Glömt lösenord?",
+    "noAccount": "Har du inget konto?",
+    "haveAccount": "Har du redan ett konto?",
+    "signUpLink": "Registrera dig här",
+    "signInLink": "Logga in här",
+    "invalidEmail": "Ange en giltig e-postadress.",
+    "requiredField": "Detta fält är obligatoriskt.",
+    "passwordMinLength": "Lösenordet måste vara minst 6 tecken.",
+    "passwordsMustMatch": "Lösenorden måste matcha.",
+    "signInError": "Ogiltig e-post eller lösenord.",
+    "signUpError": "Kunde inte skapa konto. Försök igen.",
+    "signUpSuccess": "Konto skapat! Vänligen logga in.",
+    "roleLabel": "Kontotyp",
+    "roleUser": "Användare",
+    "roleAgent": "Mäklare",
+    "phoneLabel": "Telefonnummer",
+    "phonePlaceholder": "Ange ditt telefonnummer",
+    "usernameLabel": "Användarnamn",
+    "usernamePlaceholder": "Ange ditt användarnamn",
+    "button": "Registrera dig",
+    "successTitle": "Lyckades!",
+    "successDesc": "Ditt konto har skapats.",
+    "failTitle": "Fel",
+    "loading": "Laddar..."
+  },
+  "toast": {
+    "success": {
+      "blogPostCreated": "Blogginlägg skapat.",
+      "blogPostUpdated": "Blogginlägg uppdaterat.",
+      "blogPostDeleted": "Blogginlägg borttaget.",
+      "neighborhoodCreated": "Grannskap skapat.",
+      "neighborhoodUpdated": "Grannskap uppdaterat.",
+      "neighborhoodDeleted": "Grannskap borttaget.",
+      "propertyCreated": "Fastighet skapad.",
+      "propertyUpdated": "Fastighet uppdaterad.",
+      "propertyDeleted": "Fastighet borttagen.",
+      "messageSent": "Meddelande skickat.",
+      "loginSuccess": "Inloggning lyckades.",
+      "logoutSuccess": "Utloggning lyckades.",
+      "settingsUpdated": "Inställningar uppdaterade."
+    },
+    "error": {
+      "createBlogPost": "Kunde inte skapa blogginlägg.",
+      "updateBlogPost": "Kunde inte uppdatera blogginlägg.",
+      "deleteBlogPost": "Kunde inte ta bort blogginlägg.",
+      "createNeighborhood": "Kunde inte skapa grannskap.",
+      "updateNeighborhood": "Kunde inte uppdatera grannskap.",
+      "deleteNeighborhood": "Kunde inte ta bort grannskap.",
+      "createProperty": "Kunde inte skapa fastighet.",
+      "updateProperty": "Kunde inte uppdatera fastighet.",
+      "deleteProperty": "Kunde inte ta bort fastighet.",
+      "sendMessage": "Kunde inte skicka meddelande.",
+      "loginFailed": "Inloggning misslyckades. Kontrollera dina uppgifter.",
+      "logoutFailed": "Utloggning misslyckades.",
+      "updateSettings": "Kunde inte uppdatera inställningar.",
+      "generic": "Ett fel uppstod. Försök igen."
+    },
+    "messages": {
+      "sent": "Meddelande skickat",
+      "sentTo": "Meddelande skickat till {{name}}",
+      "deleted": "Meddelande raderat",
+      "markedAsRead": "Meddelande markerat som läst",
+      "markedAsReplied": "Meddelande markerat som besvarat",
+      "error": {
+        "send": "Kunde inte skicka meddelande: {{error}}",
+        "delete": "Kunde inte radera meddelande: {{error}}",
+        "markAsRead": "Kunde inte markera meddelande som läst: {{error}}",
+        "markAsReplied": "Kunde inte markera meddelande som besvarat: {{error}}"
+      }
+    },
+    "property": {
+      "addedToFavorites": "Fastighet tillagd i favoriter",
+      "removedFromFavorites": "Fastighet borttagen från favoriter",
+      "error": {
+        "addToFavorites": "Kunde inte lägga till fastighet i favoriter: {{error}}",
+        "removeFromFavorites": "Kunde inte ta bort fastighet från favoriter: {{error}}"
+      }
+    },
+    "admin": {
+      "user": {
+        "created": "Användare skapad",
+        "updated": "Användare uppdaterad",
+        "deleted": "Användare raderad",
+        "roleUpdated": "Användarroll uppdaterad till {{role}}",
+        "error": {
+          "create": "Kunde inte skapa användare: {{error}}",
+          "update": "Kunde inte uppdatera användare: {{error}}",
+          "delete": "Kunde inte radera användare: {{error}}",
+          "updateRole": "Kunde inte uppdatera användarroll: {{error}}"
+        }
+      },
+      "property": {
+        "created": "Fastighet skapad",
+        "updated": "Fastighet uppdaterad",
+        "deleted": "Fastighet raderad",
+        "featured": "Fastighet {{action}}",
+        "verified": "Fastighet {{action}}",
+        "error": {
+          "create": "Kunde inte skapa fastighet: {{error}}",
+          "update": "Kunde inte uppdatera fastighet: {{error}}",
+          "delete": "Kunde inte radera fastighet: {{error}}",
+          "feature": "Kunde inte {{action}} fastighet: {{error}}",
+          "verify": "Kunde inte {{action}} fastighet: {{error}}"
+        }
+      },
+      "location": {
+        "created": "Plats skapad",
+        "updated": "Plats uppdaterad",
+        "deleted": "Plats raderad",
+        "error": {
+          "create": "Kunde inte skapa plats: {{error}}",
+          "update": "Kunde inte uppdatera plats: {{error}}",
+          "delete": "Kunde inte radera plats: {{error}}"
+        }
+      },
+      "settings": {
+        "currencyUpdated": "Valutainställningar uppdaterade",
+        "siteSettingsUpdated": "Webbplatsinställningar uppdaterade",
+        "allDataCleared": "Alla fastigheter och platser raderade",
+        "error": {
+          "updateCurrency": "Kunde inte uppdatera valutainställningar: {{error}}",
+          "updateSiteSettings": "Kunde inte uppdatera webbplatsinställningar: {{error}}",
+          "clearData": "Kunde inte radera data: {{error}}"
+        }
+      },
+      "pageContent": {
+        "created": "Sidinnehåll skapat",
+        "updated": "Sidinnehåll uppdaterat",
+        "deleted": "Sidinnehåll raderat",
+        "error": {
+          "create": "Kunde inte skapa sidinnehåll: {{error}}",
+          "update": "Kunde inte uppdatera sidinnehåll: {{error}}",
+          "delete": "Kunde inte radera sidinnehåll: {{error}}"
+        }
+      }
+    }
+  },
+  "myProperties": {
+    "title": "Mina fastighetsannonser",
+    "description": "Hantera dina listade fastigheter på plattformen.",
+    "signInPrompt": "Logga in för att se dina fastigheter.",
+    "errorTitle": "Fel vid laddning av fastigheter",
+    "errorDescription": "Kunde inte hämta fastigheter. Försök igen.",
+    "retry": "Försök igen",
+    "noPropertiesTitle": "Inga listade fastigheter än",
+    "noPropertiesDescription": "Börja med att lägga till din första fastighet.",
+    "listNewProperty": "Lägg till ny fastighet",
+    "listProperty": "Lägg till fastighet"
+  },
+  "profile": {
+    "title": "Profil",
+    "description": "Visa och hantera dina kontouppgifter.",
+    "email": "E-post",
+    "phone": "Telefon",
+    "memberSince": "Medlem sedan",
+    "notProvided": "Ej angivet",
+    "editProfile": "Redigera profil",
+    "editButton": "Redigera profil"
+  },
+  "roles": {
+    "admin": "Admin",
+    "agent": "Mäklare",
+    "user": "Användare"
+  },
+  "myFavorites": {
+    "title": "Mina favoritfastigheter",
+    "description": "Visa och hantera fastigheter som du har markerat som favoriter.",
+    "signInPrompt": "Logga in för att se dina favoritfastigheter.",
+    "errorTitle": "Fel vid laddning av favoriter",
+    "errorDescription": "Kunde inte hämta dina favoritfastigheter. Försök igen.",
+    "retry": "Försök igen",
+    "noFavoritesTitle": "Inga favoriter än",
+    "noFavoritesDescription": "Börja med att lägga till fastigheter i dina favoriter.",
+    "removeFavorite": "Ta bort från favoriter",
+    "emptyTitle": "Inga favoritfastigheter än",
+    "emptyDescription": "Klicka på hjärtikonen på en fastighet för att spara den här."
+  }
+} 

@@ -1,0 +1,6 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+[mem.json](mdc:mem.json) update this file every prompt with an understanding of the current codebase

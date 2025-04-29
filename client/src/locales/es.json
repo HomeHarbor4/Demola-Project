@@ -1,0 +1,266 @@
+{
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "cancel": "Cancelar",
+    "submit": "Enviar",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "view": "Ver",
+    "close": "Cerrar",
+    "requiredField": "Este campo es obligatorio",
+    "optional": "Opcional",
+    "yes": "Sí",
+    "no": "No",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "finish": "Finalizar",
+    "confirm": "Confirmar",
+    "search": "Buscar",
+    "reset": "Reiniciar",
+    "apply": "Aplicar",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "clear": "Limpiar",
+    "any": "Cualquiera",
+    "all": "Todos",
+    "to": "a"
+  },
+  "propertyTypes": {
+    "residential": "Residencial",
+    "commercial": "Comercial",
+    "land": "Terreno",
+    "industrial": "Industrial",
+    "agricultural": "Agrícola",
+    "other": "Otro",
+    "house": "Casa",
+    "villa": "Villa",
+    "condo": "Condominio",
+    "penthouse": "Ático",
+    "townhouse": "Casa adosada"
+  },
+  "ownershipTypes": {
+    "freehold": "Propiedad absoluta",
+    "leasehold": "Arrendamiento",
+    "cooperative": "Cooperativa",
+    "condominium": "Condominio"
+  },
+  "advancedFilters": {
+    "title": "Filtros Avanzados",
+    "propertyType": "Tipo de propiedad",
+    "area": "Área",
+    "budget": "Presupuesto",
+    "min": "Mínimo",
+    "max": "Máximo",
+    "ownership": "Tipo de propiedad",
+    "postedBy": "Publicado por",
+    "facing": "Orientación",
+    "mediaVerification": "Medios y verificación",
+    "withPhotos": "Solo con fotos",
+    "withVideos": "Solo con videos",
+    "verified": "Propiedades verificadas",
+    "resetAll": "Restablecer todo",
+    "applyFilters": "Aplicar filtros",
+    "residential": "Residencial",
+    "commercial": "Comercial",
+    "land": "Terreno",
+    "industrial": "Industrial",
+    "agricultural": "Agrícola",
+    "other": "Otro",
+    "freehold": "Propiedad absoluta",
+    "leasehold": "Arrendamiento",
+    "cooperative": "Cooperativa",
+    "owner": "Propietario",
+    "agent": "Agente",
+    "builder": "Constructor",
+    "east": "Este",
+    "west": "Oeste",
+    "north": "Norte",
+    "south": "Sur",
+    "office": "Oficina",
+    "shop": "Tienda",
+    "residentialLand": "Terreno residencial",
+    "housesVillas": "Casas y Villas",
+    "apartments": "Apartamentos",
+    "builderFloor": "Piso de constructor",
+    "studio": "Estudio"
+  },
+  "toast": {
+    "success": {
+      "blogPostCreated": "Entrada del blog creada.",
+      "blogPostUpdated": "Entrada del blog actualizada.",
+      "blogPostDeleted": "Entrada del blog eliminada.",
+      "neighborhoodCreated": "Vecindario creado.",
+      "neighborhoodUpdated": "Vecindario actualizado.",
+      "neighborhoodDeleted": "Vecindario eliminado.",
+      "propertyCreated": "Propiedad creada.",
+      "propertyUpdated": "Propiedad actualizada.",
+      "propertyDeleted": "Propiedad eliminada.",
+      "messageSent": "Mensaje enviado con éxito.",
+      "loginSuccess": "Inicio de sesión exitoso.",
+      "logoutSuccess": "Cierre de sesión exitoso.",
+      "settingsUpdated": "Configuración actualizada con éxito."
+    },
+    "error": {
+      "createBlogPost": "Error al crear la entrada del blog.",
+      "updateBlogPost": "Error al actualizar la entrada del blog.",
+      "deleteBlogPost": "Error al eliminar la entrada del blog.",
+      "createNeighborhood": "Error al crear el vecindario.",
+      "updateNeighborhood": "Error al actualizar el vecindario.",
+      "deleteNeighborhood": "Error al eliminar el vecindario.",
+      "createProperty": "Error al crear la propiedad.",
+      "updateProperty": "Error al actualizar la propiedad.",
+      "deleteProperty": "Error al eliminar la propiedad.",
+      "sendMessage": "Error al enviar el mensaje.",
+      "loginFailed": "Error de inicio de sesión. Por favor, verifica tus credenciales.",
+      "logoutFailed": "Error al cerrar la sesión.",
+      "updateSettings": "Error al actualizar la configuración.",
+      "generic": "Ha ocurrido un error. Por favor, inténtalo de nuevo."
+    },
+    "messages": {
+      "sent": "Mensaje enviado",
+      "sentTo": "Mensaje enviado a {{name}}",
+      "deleted": "Mensaje eliminado exitosamente",
+      "markedAsRead": "Mensaje marcado como leído",
+      "markedAsReplied": "Mensaje marcado como respondido",
+      "error": {
+        "send": "Error al enviar mensaje: {{error}}",
+        "delete": "Error al eliminar mensaje: {{error}}",
+        "markAsRead": "Error al marcar mensaje como leído: {{error}}",
+        "markAsReplied": "Error al marcar mensaje como respondido: {{error}}"
+      }
+    },
+    "property": {
+      "addedToFavorites": "Propiedad añadida a favoritos",
+      "removedFromFavorites": "Propiedad eliminada de favoritos",
+      "error": {
+        "addToFavorites": "Error al añadir propiedad a favoritos: {{error}}",
+        "removeFromFavorites": "Error al eliminar propiedad de favoritos: {{error}}"
+      }
+    },
+    "admin": {
+      "user": {
+        "created": "Usuario creado exitosamente",
+        "updated": "Usuario actualizado exitosamente",
+        "deleted": "Usuario eliminado exitosamente",
+        "roleUpdated": "Rol de usuario actualizado a {{role}}",
+        "error": {
+          "create": "Error al crear usuario: {{error}}",
+          "update": "Error al actualizar usuario: {{error}}",
+          "delete": "Error al eliminar usuario: {{error}}",
+          "updateRole": "Error al actualizar rol de usuario: {{error}}"
+        }
+      },
+      "property": {
+        "created": "Propiedad creada exitosamente",
+        "updated": "Propiedad actualizada exitosamente",
+        "deleted": "Propiedad eliminada exitosamente",
+        "featured": "Propiedad {{action}} exitosamente",
+        "verified": "Propiedad {{action}} exitosamente",
+        "error": {
+          "create": "Error al crear propiedad: {{error}}",
+          "update": "Error al actualizar propiedad: {{error}}",
+          "delete": "Error al eliminar propiedad: {{error}}",
+          "feature": "Error al {{action}} propiedad: {{error}}",
+          "verify": "Error al {{action}} propiedad: {{error}}"
+        }
+      },
+      "location": {
+        "created": "Ubicación creada exitosamente",
+        "updated": "Ubicación actualizada exitosamente",
+        "deleted": "Ubicación eliminada exitosamente",
+        "error": {
+          "create": "Error al crear ubicación: {{error}}",
+          "update": "Error al actualizar ubicación: {{error}}",
+          "delete": "Error al eliminar ubicación: {{error}}"
+        }
+      },
+      "settings": {
+        "currencyUpdated": "Configuración de moneda actualizada exitosamente",
+        "siteSettingsUpdated": "Configuración del sitio actualizada exitosamente",
+        "allDataCleared": "Todas las propiedades y ubicaciones eliminadas",
+        "error": {
+          "updateCurrency": "Error al actualizar configuración de moneda: {{error}}",
+          "updateSiteSettings": "Error al actualizar configuración del sitio: {{error}}",
+          "clearData": "Error al eliminar datos: {{error}}"
+        }
+      },
+      "pageContent": {
+        "created": "Contenido de página creado exitosamente",
+        "updated": "Contenido de página actualizado exitosamente",
+        "deleted": "Contenido de página eliminado exitosamente",
+        "error": {
+          "create": "Error al crear contenido de página: {{error}}",
+          "update": "Error al actualizar contenido de página: {{error}}",
+          "delete": "Error al eliminar contenido de página: {{error}}"
+        }
+      }
+    }
+  },
+  "auth": {
+    "signIn": {
+      "title": "Iniciar sesión",
+      "googleButton": "Iniciar sesión con Google"
+    },
+    "signUp": "Registrarse",
+    "signInHeading": "¡Bienvenido de nuevo!",
+    "signUpHeading": "Crear tu cuenta",
+    "emailLabel": "Correo electrónico",
+    "emailPlaceholder": "Ingresa tu correo electrónico",
+    "passwordLabel": "Contraseña",
+    "passwordPlaceholder": "Ingresa tu contraseña",
+    "confirmPasswordLabel": "Confirmar contraseña",
+    "confirmPasswordPlaceholder": "Vuelve a ingresar tu contraseña",
+    "nameLabel": "Nombre completo",
+    "namePlaceholder": "Ingresa tu nombre completo",
+    "submitSignIn": "Iniciar sesión",
+    "submitSignUp": "Registrarse",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "noAccount": "¿No tienes una cuenta?",
+    "haveAccount": "¿Ya tienes una cuenta?",
+    "signUpLink": "Regístrate aquí",
+    "signInLink": "Inicia sesión aquí",
+    "invalidEmail": "Por favor ingresa un correo electrónico válido.",
+    "requiredField": "Este campo es obligatorio.",
+    "passwordMinLength": "La contraseña debe tener al menos 6 caracteres.",
+    "passwordsMustMatch": "Las contraseñas deben coincidir.",
+    "signInError": "Correo electrónico o contraseña inválidos.",
+    "signUpError": "No se pudo crear la cuenta. Por favor intenta de nuevo.",
+    "signUpSuccess": "¡Cuenta creada exitosamente! Por favor inicia sesión.",
+    "roleLabel": "Tipo de cuenta",
+    "roleUser": "Usuario",
+    "roleAgent": "Agente",
+    "phoneLabel": "Número de teléfono",
+    "phonePlaceholder": "Ingresa tu número de teléfono",
+    "usernameLabel": "Nombre de usuario",
+    "usernamePlaceholder": "Ingresa tu nombre de usuario",
+    "button": "Registrarse"
+  },
+  "propertyDetailModal": {
+    "form": {
+      "nameLabel": "Tu nombre",
+      "emailLabel": "Tu correo electrónico",
+      "phoneLabel": "Tu número de teléfono",
+      "phonePlaceholder": "Ingresa tu número de teléfono",
+      "messageLabel": "Mensaje",
+      "messagePlaceholder": "Escribe tu mensaje aquí",
+      "namePlaceholder": "Ingresa tu nombre",
+      "emailPlaceholder": "Ingresa tu correo electrónico"
+    },
+    "messages": {
+      "success": "Mensaje enviado con éxito.",
+      "error": "No se pudo enviar el mensaje. Por favor, inténtalo de nuevo.",
+      "validationError": "Por favor, completa todos los campos obligatorios."
+    }
+  },
+  "stats": {
+    "sectionTitle": "¿Por qué elegir HomeHarbor?",
+    "sectionDescription": "La plataforma inmobiliaria de más rápido crecimiento en Finlandia que ayuda a millones a encontrar su hogar perfecto.",
+    "propertiesListed": "Propiedades Listadas",
+    "happyCustomers": "Clientes Satisfechos",
+    "citiesCovered": "Ciudades Cubiertas",
+    "customerSatisfaction": "Satisfacción del Cliente"
+  }
+} 
