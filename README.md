@@ -20,7 +20,7 @@ Built for first-time buyers, families, and real estate enthusiasts, Home Harbor 
 - *External Data Sources*: 
   - Oulu Open Data Portal
   - Statistics Finland
-  - OECD Better Life Index
+  - Google Maps Api
     
 ## 🌍 Live Demo
 
