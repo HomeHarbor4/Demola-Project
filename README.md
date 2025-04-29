@@ -1,31 +1,35 @@
-# RealEstateSync
+# HomeHarbor
 
-A comprehensive real estate platform that integrates property listings with crime statistics and other relevant data.
+*Home Harbor* is a web application that helps users make better-informed decisions when buying a home. By combining trusted open data with interactive visualizations, users can easily explore neighborhoods, view property trends, assess safety and amenities, and filter based on what matters most to them.
+
+Built for first-time buyers, families, and real estate enthusiasts, Home Harbor simplifies the research process and empowers users to find homes that truly match their lifestyle.
 
 ## Features
 
-- Property listing management
-- Crime statistics integration
-- User authentication and authorization
-- Real-time data updates
-- Advanced search and filtering
-- Responsive web interface
+- 🔍 *City/Area Search*: Explore neighborhoods based on location.
+- 🗺️ *Interactive Maps*: View parks, schools, transport routes, and safety information visually.
+- 📈 *Market Insights*: Analyze property price trends and living conditions.
+- 🎯 *Smart Filters*: Customize your search by price, commute time, school ratings, and more.
+- 📱 *Responsive Design*: Accessible from desktops, tablets, and mobile devices.
 
-## Tech Stack
 
-### Frontend
-- React with TypeScript
-- Vite for build tooling
-- Tailwind CSS for styling
-- React Query for data fetching
-- React Router for navigation
+## 🛠️ Technology Stack
 
-### Backend
-- Node.js with Express
-- TypeScript
-- PostgreSQL database
-- Drizzle ORM
-- JWT authentication
+- *Frontend*: React.js, Tailwind CSS
+- *Backend*: Node.js, Express.js
+- *Database*: MongoDB
+- *External Data Sources*: 
+  - Oulu Open Data Portal
+  - Statistics Finland
+  - OECD Better Life Index
+    
+## 🌍 Live Demo
+
+Access the live version here:  
+🔗 [https://realestate-webapp.onrender.com/](https://realestate-webapp.onrender.com/)
+
+---
+
 
 ## Project Structure
 
@@ -51,7 +55,7 @@ RealEstateSync/
     └── schema/            # Database schema definitions
 ```
 
-## Setup and Installation
+## 🧑‍💻 Getting Started (Local Development)
 
 ### Prerequisites
 - Node.js (v18 or higher)
@@ -61,10 +65,10 @@ RealEstateSync/
 ### Installation
 
 1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/RealEstateSync.git
-cd RealEstateSync
-```
+
+git clone https://github.com/HomeHarbor4/Demola-Project
+cd Demola-Project
+
 
 2. Install dependencies:
 ```bash
@@ -72,35 +76,14 @@ cd RealEstateSync
 npm install --legacy-peer-deps
 ```
 
-3. Set up environment variables:
-```bash
-# Create .env file in server directory
-# Update VITE_API_BASE_URL to http://localhost:5000/api
-```
-
-4. Update the environment variables with your configuration:
-- `DATABASE_URL`: PostgreSQL connection string
-- `JWT_SECRET`: Secret key for JWT authentication
-- `API_URL`: Backend API URL
-
-### Database Setup
-
-1. Create the PostgreSQL database:
-```bash
-createdb realestatesync
-```
-
-2. Run database migrations:
+## Running the Application
+First Run database migrations:
 ```bash
 cd server
 npm run db:generate
 npm run db:push
 ```
-
-## Running the Application
-
 ### Development Mode
-
 1. Start the backend server:
 ```bash
 cd server
@@ -162,16 +145,18 @@ The application includes a crime data service that:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## License
+## 🧠 Future Enhancements
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- Mortgage calculator integration
+- Predictive analytics for market trends
+- Nationwide property coverage expansion
+- Rental property listings
 
-## Support
+## 👥 Team
 
-For support, email support@realestatesync.com or join our Slack channel.
+- Anu Rawat  
+- Vanshika Sanni  
+- Sujata Shresta  
+- Esther Fatoyinbo
+  
 
-## Acknowledgments
-
-- Statistics Finland for crime data
-- OpenStreetMap for mapping data
-- All contributors who have helped shape this project 
