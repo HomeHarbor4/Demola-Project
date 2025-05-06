@@ -25,7 +25,7 @@ Built for first-time buyers, families, and real estate enthusiasts, Home Harbor 
 ## 🌍 Live Demo
 
 Access the live version here:  
-[🔗 [https://realestate-webapp.onrender.com/](https://realestate-webapp.onrender.com/)](https://realestate-webapp-q2cw.onrender.com/)
+[🔗 (https://realestate-webapp-q2cw.onrender.com/)
 
 ---
 
